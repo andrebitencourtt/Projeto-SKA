@@ -1,0 +1,121 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  background-color: #000;
+  width: 100%;
+}
+#logo{
+  margin-left: 15px;
+  float: left;
+  color: #007bff;
+  font-size: 2.5em;
+  font-family: "Arial Black";
+  line-height: 70px;
+}
+#nav-menu-index{
+  float: right;
+  color: #FFF;
+}
+#nav-menu-paginas{
+  float: right;
+  color: #FFF;
+  margin-top: 1.2%;
+}
+#ul-menu{
+  list-style: none;
+  line-height: 40px;
+}
+#ul-menu li{
+  display: inline-block;
+  font-family: "Arial Black";
+  font-size: 1.5em;
+  margin: 0px 15px 0px 15px;
+}
+#principal{
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 300px;
+  text-align: center;
+}
+
+/* animacao do bem vindo */
+main h1{
+  font-family: "Arial Black";
+  color: #007bff;
+
+  animation: animacaoInicial 2.5s linear infinite alternate-reverse;
+}
+@keyframes animacaoInicial{
+  0%{
+  }
+  100%{
+    font-size: 3em;
+  }
+}
+.tit-page{
+  animation: none;
+}
+/* animacao do bem vindo */
+
+#p-principal{
+  font-family: "Candara";
+  color: #888;
+}
+a{
+  color: #007bff;
+  text-decoration: none;
+}
+.divcentro{
+  margin-top: 100px;
+  font-family: "Arial";
+  color: #888;
+  text-align: center;
+  display: inline-block;
+  margin-top: 18%;
+  margin-left: 37%;
+}
+#img-logoSka{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.divcentroCalendario{
+  margin-top: 100px;
+  font-family: "Arial";
+  color: #888;
+  text-align: center;
+  display: inline-block;
+  margin-top: 7%;
+  float: left;
+  margin-left: 25%;
+}
+.div_tabela{
+  margin-top: 100px;
+  font-family: "Arial";
+  color: #888;
+  text-align: center;
+  display: inline-block;
+  margin-top: 7%;
+  float: right;
+  margin-right: 11%;
+}
+.divCancelar{
+  margin-top: 50px;
+  font-family: "Arial";
+  color: #888;
+  text-align: center;
+  display: inline-block;
+  margin-left: 60%;
+}
+.divcentro_login{
+  margin-top: 100px;
+  font-family: "Arial";
+  color: #888;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 43%;
+}
